@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" role="img" aria-label="Kepa tecnologIA">
+  <defs>
+    <filter id="kg" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="b"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="b"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+    <linearGradient id="ko" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff8434"></stop>
+      <stop offset="100%" stop-color="#ff5a00"></stop>
+    </linearGradient>
+    <linearGradient id="kc" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"></stop>
+      <stop offset="100%" stop-color="#5be8ff"></stop>
+    </linearGradient>
+  </defs>
+
+  
+  <polygon points="50,5 89,27 89,73 50,95 11,73 11,27" stroke="url(#ko)" stroke-width="2.4" stroke-linejoin="round" filter="url(#kg)"></polygon>
+
+  
+  <polygon points="50,17 78,33 78,67 50,83 22,67 22,33" stroke="#00d4ff" stroke-width="0.7" stroke-opacity="0.45" stroke-linejoin="round"></polygon>
+
+  
+  <g stroke="#ff6a14" stroke-width="1" stroke-opacity="0.55" stroke-linecap="round">
+    <path d="M11 27 L4 23"></path>
+    <path d="M89 27 L96 23"></path>
+    <path d="M11 73 L4 77"></path>
+    <path d="M89 73 L96 77"></path>
+  </g>
+  <g fill="#ff6a14" fill-opacity="0.8">
+    <circle cx="4" cy="23" r="1.4"></circle>
+    <circle cx="96" cy="23" r="1.4"></circle>
+    <circle cx="4" cy="77" r="1.4"></circle>
+    <circle cx="96" cy="77" r="1.4"></circle>
+  </g>
+
+  
+  <g filter="url(#kg)" stroke-linecap="round">
+    
+    <line x1="36" y1="28" x2="36" y2="72" stroke="url(#ko)" stroke-width="5"></line>
+    
+    <line x1="36.5" y1="50" x2="62" y2="29" stroke="url(#ko)" stroke-width="5"></line>
+    
+    <line x1="36.5" y1="50" x2="62" y2="71" stroke="url(#kc)" stroke-width="5"></line>
+  </g>
+
+  
+  <line x1="22" y1="50" x2="78" y2="50" stroke="#00d4ff" stroke-width="0.6" stroke-opacity="0.5" stroke-dasharray="2 3"></line>
+
+  
+  <circle cx="36" cy="50" r="3.2" fill="#0a0a0a" stroke="#ffd400" stroke-width="1.4"></circle>
+  <circle cx="36" cy="50" r="1.2" fill="#ffd400"></circle>
+  <circle cx="62" cy="29" r="2.4" fill="#ff6a14"></circle>
+  <circle cx="62" cy="71" r="2.4" fill="#00d4ff"></circle>
+
+  
+  <rect x="46" y="86" width="8" height="1.4" fill="#ff6a14" opacity="0.9"></rect>
+</svg>

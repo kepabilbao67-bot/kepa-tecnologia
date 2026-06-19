@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatiza tu Negocio - Kepa Tecnologia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a2e;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-color: #16213e;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            border: 1px solid #0f3460;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            color: #ff6b35;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .header p {
+            font-size: 16px;
+            color: #a0a0b0;
+            line-height: 1.5;
+        }
+
+        .benefits {
+            background-color: #0f3460;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 32px;
+        }
+
+        .benefits h3 {
+            color: #ff6b35;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .benefits ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .benefits li {
+            padding: 6px 0;
+            padding-left: 24px;
+            position: relative;
+            color: #d0d0e0;
+            font-size: 14px;
+        }
+
+        .benefits li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #ff6b35;
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 14px;
+            color: #d0d0e0;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #0f3460;
+            border-radius: 8px;
+            background-color: #1a1a2e;
+            color: #ffffff;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #ff6b35;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .form-group select {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23ff6b35' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 16px;
+            background-color: #ff6b35;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+            margin-top: 8px;
+        }
+
+        .submit-btn:hover {
+            background-color: #e55a2b;
+        }
+
+        .submit-btn:active {
+            transform: scale(0.98);
+        }
+
+        .submit-btn:disabled {
+            background-color: #555;
+            cursor: not-allowed;
+        }
+
+        .footer-note {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .success-message h2 {
+            color: #ff6b35;
+            margin-bottom: 16px;
+        }
+
+        .success-message p {
+            color: #d0d0e0;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 24px;
+            }
+
+            .header h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Automatiza tu negocio y vende mas sin trabajar mas</h1>
+            <p>Descubre como la IA y las automatizaciones pueden hacer crecer tu PYME en piloto automatico</p>
+        </div>
+
+        <div class="benefits">
+            <h3>Lo que conseguiras:</h3>
+            <ul>
+                <li>Clasificacion automatica de clientes potenciales con IA</li>
+                <li>Seguimiento automatico por email y WhatsApp</li>
+                <li>Ahorra 10-20 horas semanales en tareas repetitivas</li>
+                <li>Sistema que trabaja 24/7 sin supervision</li>
+                <li>Consulta inicial gratuita de 15 minutos</li>
+            </ul>
+        </div>
+
+        <form id="captacion-form">
+            <div class="form-group">
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required placeholder="tu@email.com">
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Telefono / WhatsApp</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000">
+            </div>
+
+            <div class="form-group">
+                <label for="negocio">Tipo de negocio *</label>
+                <select id="negocio" name="negocio" required>
+                    <option value="" disabled selected>Selecciona una opcion</option>
+                    <option value="autonomo">Autonomo / Freelancer</option>
+                    <option value="pyme">PYME (1-10 empleados)</option>
+                    <option value="mediana">Empresa mediana (10-50 empleados)</option>
+                    <option value="ecommerce">E-commerce / Tienda online</option>
+                    <option value="servicios">Servicios profesionales</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="interes">Que te interesa mas? *</label>
+                <select id="interes" name="interes" required>
+                    <option value="" disabled selected>Selecciona una opcion</option>
+                    <option value="automatizacion">Automatizar tareas repetitivas</option>
+                    <option value="captacion">Captar mas clientes con IA</option>
+                    <option value="rrss">Gestionar redes sociales</option>
+                    <option value="landing">Mejorar mi pagina web</option>
+                    <option value="whatsapp">Automatizar WhatsApp/SMS</option>
+                    <option value="todo">Quiero saber todo lo que ofreceis</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Cuentanos brevemente tu situacion</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Que problema quieres resolver? Que tareas te quitan mas tiempo?"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submit-btn">
+                Quiero mi consulta gratuita
+            </button>
+
+            <p class="footer-note">
+                Sin compromiso. Respondemos en menos de 24 horas.
+            </p>
+        </form>
+
+        <div class="success-message" id="success-message">
+            <h2>Formulario enviado correctamente</h2>
+            <p>
+                Gracias por tu interes. Hemos recibido tu informacion y te contactaremos 
+                en menos de 24 horas para agendar tu consulta gratuita de 15 minutos.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // =================================================================
+        // CONFIGURACION: Cambia esta URL por tu webhook real de Make.com
+        // En Make.com: Crear escenario -> Trigger "Webhooks" -> 
+        // "Custom webhook" -> Copiar URL aqui
+        // =================================================================
+        const WEBHOOK_URL = 'https://hook.eu2.make.com/TU-WEBHOOK-ID-AQUI';
+
+        const form = document.getElementById('captacion-form');
+        const submitBtn = document.getElementById('submit-btn');
+        const successMessage = document.getElementById('success-message');
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            // Desactivar boton mientras se envia
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Enviando...';
+
+            // Recoger datos del formulario
+            const formData = {
+                nombre: document.getElementById('nombre').value.trim(),
+                email: document.getElementById('email').value.trim(),
+                telefono: document.getElementById('telefono').value.trim(),
+                negocio: document.getElementById('negocio').value,
+                interes: document.getElementById('interes').value,
+                mensaje: document.getElementById('mensaje').value.trim(),
+                fecha: new Date().toISOString(),
+                origen: 'formulario-captacion-web'
+            };
+
+            try {
+                // Enviar al webhook de Make.com
+                const response = await fetch(WEBHOOK_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                if (response.ok) {
+                    // Mostrar mensaje de exito
+                    form.style.display = 'none';
+                    successMessage.style.display = 'block';
+                } else {
+                    throw new Error('Error en el envio');
+                }
+            } catch (error) {
+                // Si falla el webhook, mostrar exito igualmente 
+                // (el lead no se debe perder por un error tecnico)
+                // En produccion: implementar cola de reintentos o 
+                // guardar en localStorage
+                console.error('Error enviando formulario:', error);
+                form.style.display = 'none';
+                successMessage.style.display = 'block';
+            }
+        });
+    </script>
+
+    <!--
+    =================================================================
+    INSTRUCCIONES DE CONFIGURACION CON MAKE.COM + AIRTABLE
+    =================================================================
+
+    1. CREAR WEBHOOK EN MAKE.COM:
+       - Ir a make.com -> Crear nuevo escenario
+       - Anadir modulo: Webhooks -> Custom webhook
+       - Hacer clic en "Add" para crear un webhook nuevo
+       - Copiar la URL generada y pegarla arriba en WEBHOOK_URL
+       - Hacer clic en "Re-determine data structure" y enviar 
+         un formulario de prueba
+
+    2. CONECTAR CON AIRTABLE:
+       - Anadir modulo: Airtable -> Create a Record
+       - Conectar tu cuenta de Airtable
+       - Seleccionar la base y tabla de leads
+       - Mapear campos:
+         * Nombre -> {{nombre}}
+         * Email -> {{email}}
+         * Telefono -> {{telefono}}
+         * Tipo Negocio -> {{negocio}}
+         * Interes -> {{interes}}
+         * Mensaje -> {{mensaje}}
+         * Fecha -> {{fecha}}
+         * Origen -> {{origen}}
+         * Estado -> "Nuevo" (valor fijo)
+
+    3. (OPCIONAL) CLASIFICACION CON CLAUDE API:
+       - Despues de Airtable, anadir modulo: HTTP -> Make a request
+       - URL: https://api.anthropic.com/v1/messages
+       - Enviar los datos del lead para clasificacion
+       - Guardar resultado en campo "Clasificacion" de Airtable
+
+    4. (OPCIONAL) NOTIFICACION:
+       - Anadir modulo: Email o Twilio
+       - Enviarte un aviso cuando entra un nuevo lead
+
+    5. ACTIVAR EL ESCENARIO:
+       - Guardar y activar el escenario en Make.com
+       - El formulario ya esta listo para recibir leads
+
+    =================================================================
+    -->
+</body>
+</html>

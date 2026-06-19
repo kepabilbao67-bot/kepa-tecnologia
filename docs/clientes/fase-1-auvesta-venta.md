@@ -78,12 +78,12 @@ Ver: [Documentacion tecnica del flujo Make.com](./automatizacion-make-clasificac
 - [ ] Recibir toda la formacion necesaria
 - [ ] Configurar el sistema de automatizacion (Make.com + Airtable + Claude)
 - [ ] Conseguir las primeras 5 ventas
-- [ ] Generar ingresos minimos de 500 EUR/mes
+- [ ] Generar ingresos minimos de [POR CONFIRMAR] EUR/mes
 
 ### Objetivos a Medio Plazo (Mes 3-6)
 - [ ] Optimizar el flujo de ventas con datos reales
 - [ ] Alcanzar 10-15 ventas mensuales
-- [ ] Generar ingresos de 1.000-2.000 EUR/mes
+- [ ] Generar ingresos de [POR CONFIRMAR] EUR/mes
 - [ ] Identificar partners potenciales para Fase 2
 - [ ] Documentar que funciona y que no
 
@@ -95,7 +95,7 @@ Ver: [Documentacion tecnica del flujo Make.com](./automatizacion-make-clasificac
 | Leads clasificados (auto) | 50 | 100 | 200 |
 | Contactos realizados | 30 | 60 | 100 |
 | Ventas cerradas | 5 | 10 | 15 |
-| Ingresos | 500 EUR | 1.000 EUR | 2.000 EUR |
+| Ingresos | [POR CONFIRMAR] | [POR CONFIRMAR] | [POR CONFIRMAR] |
 | Tasa de conversion | 10% | 10% | 15% |
 
 ---

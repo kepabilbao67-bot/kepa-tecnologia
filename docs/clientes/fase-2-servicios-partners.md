@@ -91,7 +91,7 @@ La segunda fase consiste en **vender tus servicios de automatizacion y marketing
 - Anadir formularios de captacion
 - Conectar con automatizaciones
 
-**Precio orientativo:** 200-500 EUR por landing
+**Precio orientativo:** [POR CONFIRMAR] EUR por landing
 
 ### 2. Gestion de Redes Sociales
 
@@ -104,7 +104,7 @@ La segunda fase consiste en **vender tus servicios de automatizacion y marketing
 - Interaccion con seguidores
 - Reportes mensuales
 
-**Precio orientativo:** 150-300 EUR/mes
+**Precio orientativo:** [POR CONFIRMAR] EUR/mes
 
 ### 3. Automatizaciones Make.com
 
@@ -117,7 +117,7 @@ La segunda fase consiste en **vender tus servicios de automatizacion y marketing
 - Reportes automaticos de ventas
 - Integracion entre herramientas
 
-**Precio orientativo:** 100-300 EUR por automatizacion
+**Precio orientativo:** [POR CONFIRMAR] EUR por automatizacion
 
 ### 4. Captacion de Clientes con IA
 
@@ -130,7 +130,7 @@ La segunda fase consiste en **vender tus servicios de automatizacion y marketing
 - Secuencias de contacto automatizadas
 - Metricas y optimizacion continua
 
-**Precio orientativo:** 200-400 EUR/mes
+**Precio orientativo:** [POR CONFIRMAR] EUR/mes
 
 ---
 
@@ -189,8 +189,8 @@ El grupo es tu **equipo/downline dentro de la estructura de Auvesta**. Cuando me
 
 | Nivel | Descripcion | Comision Estimada |
 |---|---|---|
-| Nivel 1 (directos) | Personas que tu registraste directamente | 5-10% del volumen de sus ventas |
-| Nivel 2+ (indirectos) | Personas que registraron tus directos | 2-5% (segun plan de compensacion Auvesta) |
+| Nivel 1 (directos) | Personas que tu registraste directamente | [POR CONFIRMAR] % del volumen de sus ventas |
+| Nivel 2+ (indirectos) | Personas que registraron tus directos | [POR CONFIRMAR] % (segun plan de compensacion Auvesta) |
 
 > **Nota:** Los porcentajes exactos dependen del plan de compensacion vigente de Auvesta.
 > Consulta la documentacion oficial de Auvesta para los numeros actualizados.
@@ -259,10 +259,10 @@ El grupo es tu **equipo/downline dentro de la estructura de Auvesta**. Cuando me
 | Concepto | Mes 1 | Mes 3 | Mes 6 |
 |---|---|---|---|
 | Clientes de servicios | 1-2 | 5 | 10 |
-| Ingresos por servicios | 300 EUR | 1.500 EUR | 3.000 EUR |
+| Ingresos por servicios | [POR CONFIRMAR] EUR | [POR CONFIRMAR] EUR | [POR CONFIRMAR] EUR |
 | Personas en tu grupo | 3-5 | 15 | 30+ |
-| Ingresos por red/grupo | 100 EUR | 500 EUR | 1.500 EUR |
-| **Total Fase 2** | **400 EUR** | **2.000 EUR** | **4.500 EUR** |
+| Ingresos por red/grupo | [POR CONFIRMAR] EUR | [POR CONFIRMAR] EUR | [POR CONFIRMAR] EUR |
+| **Total Fase 2** | **[POR CONFIRMAR] EUR** | **[POR CONFIRMAR] EUR** | **[POR CONFIRMAR] EUR** |
 
 *Nota: Estos ingresos se suman a los de Fase 1 (ventas directas para Auvesta)*
 

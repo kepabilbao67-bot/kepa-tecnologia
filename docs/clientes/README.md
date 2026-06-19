@@ -1,5 +1,7 @@
 # Documentacion de Clientes - Kepa Tecnologia
 
+> **Nota:** Los precios y comisiones estan marcados como **[POR CONFIRMAR]** en toda la documentacion. Rellenarlos cuando se tengan los numeros definitivos.
+
 ## Estrategia de Negocio en 3 Fases
 
 Este repositorio documenta la estrategia de negocio de Kepa Tecnologia organizada en **tres fases claramente diferenciadas**. Cada fase construye sobre la anterior, creando una progresion logica desde generar ingresos vendiendo para otros hasta escalar el negocio propio.
@@ -58,6 +60,36 @@ El sistema base que se utiliza en las 3 fases: flujo Airtable -> Claude API -> A
 Detalle completo de todos los servicios que se ofrecen en Fase 2 y Fase 3.
 
 📄 [Ver catalogo de servicios](./servicios-detalle.md)
+
+---
+
+## Herramientas Operativas
+
+### Formulario de Captacion
+Pagina HTML lista para captar leads. Se conecta con Airtable via webhook de Make.com.
+
+📄 [Ver formulario de captacion](./formulario-captacion.html)
+
+---
+
+### Templates de Posts para Redes Sociales
+10 posts completos listos para publicar en Instagram, LinkedIn y Twitter/X sobre automatizacion e IA.
+
+📄 [Ver templates de posts](./templates-posts-rrss.md)
+
+---
+
+### Guia de Ventas para Partners
+Script completo de ventas: elevator pitch, mensajes de WhatsApp, secuencia de emails, y guion de llamada.
+
+📄 [Ver guia de ventas](./guia-ventas-partners.md)
+
+---
+
+### Checklist Operativa Diaria
+Rutina diaria, semanal y mensual para gestionar el negocio de forma eficiente.
+
+📄 [Ver checklist operativa](./checklist-operativa-diaria.md)
 
 ---
 

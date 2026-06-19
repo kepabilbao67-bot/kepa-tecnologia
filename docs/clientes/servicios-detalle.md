@@ -17,13 +17,13 @@ Make.com (antes Integromat) es una plataforma de automatizacion visual que conec
 
 | Automatizacion | Descripcion | Tiempo | Precio |
 |---|---|---|---|
-| Clasificacion de leads | Airtable + Claude API | 2-3 dias | 200 EUR |
-| Seguimiento automatico | Emails/WhatsApp segun estado | 3-4 dias | 250 EUR |
-| Publicacion RRSS | Programar y publicar automaticamente | 2 dias | 150 EUR |
-| Reportes automaticos | Generar y enviar reportes semanales | 1-2 dias | 100 EUR |
-| Onboarding clientes | Secuencia automatica para nuevos clientes | 3-4 dias | 300 EUR |
-| Facturacion | Generar y enviar facturas automaticamente | 2-3 dias | 200 EUR |
-| Custom | Cualquier flujo personalizado | Variable | 200-500 EUR |
+| Clasificacion de leads | Airtable + Claude API | 2-3 dias | [POR CONFIRMAR] EUR |
+| Seguimiento automatico | Emails/WhatsApp segun estado | 3-4 dias | [POR CONFIRMAR] EUR |
+| Publicacion RRSS | Programar y publicar automaticamente | 2 dias | [POR CONFIRMAR] EUR |
+| Reportes automaticos | Generar y enviar reportes semanales | 1-2 dias | [POR CONFIRMAR] EUR |
+| Onboarding clientes | Secuencia automatica para nuevos clientes | 3-4 dias | [POR CONFIRMAR] EUR |
+| Facturacion | Generar y enviar facturas automaticamente | 2-3 dias | [POR CONFIRMAR] EUR |
+| Custom | Cualquier flujo personalizado | Variable | [POR CONFIRMAR] EUR |
 
 #### Beneficios para el Cliente
 - Ahorra 10-20 horas semanales en tareas repetitivas
@@ -53,12 +53,12 @@ Claude es un modelo de IA de Anthropic que puede analizar textos, clasificar inf
 
 | Servicio | Descripcion | Precio |
 |---|---|---|
-| Clasificacion de leads | IA decide prioridad y accion | 150 EUR |
-| Generacion de contenido | Posts, emails, textos web con IA | 200 EUR |
-| Atencion al cliente | Respuestas automaticas inteligentes | 300 EUR |
-| Analisis de datos | Extraer insights de textos/formularios | 200 EUR |
-| Chatbot basico | Bot que responde preguntas frecuentes | 400 EUR |
-| Resumen de reuniones | Transcribir y resumir automaticamente | 150 EUR |
+| Clasificacion de leads | IA decide prioridad y accion | [POR CONFIRMAR] EUR |
+| Generacion de contenido | Posts, emails, textos web con IA | [POR CONFIRMAR] EUR |
+| Atencion al cliente | Respuestas automaticas inteligentes | [POR CONFIRMAR] EUR |
+| Analisis de datos | Extraer insights de textos/formularios | [POR CONFIRMAR] EUR |
+| Chatbot basico | Bot que responde preguntas frecuentes | [POR CONFIRMAR] EUR |
+| Resumen de reuniones | Transcribir y resumir automaticamente | [POR CONFIRMAR] EUR |
 
 #### Beneficios para el Cliente
 - Decisiones basadas en datos, no intuicion
@@ -87,13 +87,13 @@ Una landing page es la pagina donde aterrizan tus potenciales clientes. Si no co
 
 | Servicio | Descripcion | Precio |
 |---|---|---|
-| Auditoria de landing | Analisis completo + recomendaciones | 50 EUR |
-| Rediseno completo | Landing nueva optimizada para conversion | 400 EUR |
-| Optimizacion movil | Adaptar para que funcione perfecto en movil | 150 EUR |
-| Copywriting | Reescribir textos para que vendan mas | 200 EUR |
-| Formulario inteligente | Formulario conectado a automatizacion | 100 EUR |
-| A/B Testing | Crear variantes y medir cual funciona mejor | 150 EUR |
-| Pack completo | Auditoria + Rediseno + Copy + Formulario | 600 EUR |
+| Auditoria de landing | Analisis completo + recomendaciones | [POR CONFIRMAR] EUR |
+| Rediseno completo | Landing nueva optimizada para conversion | [POR CONFIRMAR] EUR |
+| Optimizacion movil | Adaptar para que funcione perfecto en movil | [POR CONFIRMAR] EUR |
+| Copywriting | Reescribir textos para que vendan mas | [POR CONFIRMAR] EUR |
+| Formulario inteligente | Formulario conectado a automatizacion | [POR CONFIRMAR] EUR |
+| A/B Testing | Crear variantes y medir cual funciona mejor | [POR CONFIRMAR] EUR |
+| Pack completo | Auditoria + Rediseno + Copy + Formulario | [POR CONFIRMAR] EUR |
 
 #### Checklist de una Buena Landing
 
@@ -126,9 +126,9 @@ Gestionar la presencia en redes sociales de forma estrategica para atraer client
 
 | Plan | Publicaciones/Semana | Incluye | Precio/Mes |
 |---|---|---|---|
-| Basico | 3 posts | Creacion + publicacion | 150 EUR |
-| Estandar | 5 posts + stories | Creacion + publicacion + interaccion | 250 EUR |
-| Premium | 7 posts + stories + reels | Todo + estrategia + reportes | 400 EUR |
+| Basico | 3 posts | Creacion + publicacion | [POR CONFIRMAR] EUR |
+| Estandar | 5 posts + stories | Creacion + publicacion + interaccion | [POR CONFIRMAR] EUR |
+| Premium | 7 posts + stories + reels | Todo + estrategia + reportes | [POR CONFIRMAR] EUR |
 
 #### Plataformas
 
@@ -169,9 +169,9 @@ Un sistema completo que usa automatizaciones e inteligencia artificial para enco
 
 | Componente | Descripcion | Precio |
 |---|---|---|
-| Setup inicial | Configurar todo el sistema | 300 EUR |
-| Mantenimiento mensual | Optimizar y ajustar | 200 EUR/mes |
-| Pack completo (6 meses) | Setup + 6 meses mantenimiento | 1.000 EUR |
+| Setup inicial | Configurar todo el sistema | [POR CONFIRMAR] EUR |
+| Mantenimiento mensual | Optimizar y ajustar | [POR CONFIRMAR] EUR/mes |
+| Pack completo (6 meses) | Setup + 6 meses mantenimiento | [POR CONFIRMAR] EUR |
 
 #### Como Funciona el Sistema Completo
 
@@ -211,11 +211,11 @@ Twilio permite enviar SMS y mensajes de WhatsApp de forma automatica, integrado 
 
 | Servicio | Descripcion | Precio |
 |---|---|---|
-| Notificaciones SMS | Avisos automaticos a clientes | 150 EUR setup |
-| WhatsApp Business API | Mensajes automaticos por WhatsApp | 250 EUR setup |
-| Secuencias de follow-up | Mensajes programados de seguimiento | 200 EUR |
-| Confirmaciones | Confirmar citas, pedidos, registros | 100 EUR |
-| Recordatorios | Avisar antes de citas/eventos | 100 EUR |
+| Notificaciones SMS | Avisos automaticos a clientes | [POR CONFIRMAR] EUR setup |
+| WhatsApp Business API | Mensajes automaticos por WhatsApp | [POR CONFIRMAR] EUR setup |
+| Secuencias de follow-up | Mensajes programados de seguimiento | [POR CONFIRMAR] EUR |
+| Confirmaciones | Confirmar citas, pedidos, registros | [POR CONFIRMAR] EUR |
+| Recordatorios | Avisar antes de citas/eventos | [POR CONFIRMAR] EUR |
 
 #### Ejemplo de Secuencia
 
@@ -230,20 +230,20 @@ Dia 7: Sin respuesta -> "Ultimo aviso: tengo una oferta especial..."
 
 ## Paquetes Combinados
 
-### Pack PYME Basico - 500 EUR
+### Pack PYME Basico - [POR CONFIRMAR] EUR
 - Auditoria de landing
 - 1 automatizacion Make.com
 - Setup clasificacion de leads
 - 1 mes gestion RRSS basica
 
-### Pack PYME Completo - 1.200 EUR
+### Pack PYME Completo - [POR CONFIRMAR] EUR
 - Rediseno landing completo
 - 3 automatizaciones Make.com
 - Sistema clasificacion IA
 - 3 meses gestion RRSS estandar
 - Captacion automatizada
 
-### Pack Premium - 2.000 EUR
+### Pack Premium - [POR CONFIRMAR] EUR
 - Todo lo del Pack Completo
 - Integracion Twilio (SMS/WhatsApp)
 - Chatbot basico con IA
@@ -258,7 +258,7 @@ Dia 7: Sin respuesta -> "Ultimo aviso: tengo una oferta especial..."
 - **Soporte:** Incluido durante 30 dias tras la entrega
 - **Plazos:** Entrega en 1-2 semanas segun complejidad
 - **Pago:** 50% al inicio, 50% a la entrega
-- **Mantenimiento:** Disponible por 50-100 EUR/mes segun servicio
+- **Mantenimiento:** Disponible por [POR CONFIRMAR] EUR/mes segun servicio
 
 ---
 

@@ -68,7 +68,7 @@ La tercera fase consiste en **aplicar todo lo construido en las fases anteriores
 - Tu grupo en Auvesta sigue activo y generando
 
 **Via B - Crear programa de referidos propio (Kepa Tecnologia):**
-- Ofrecer un 10-15% de comision a quien te refiera clientes de servicios
+- Ofrecer un [POR CONFIRMAR] % de comision a quien te refiera clientes de servicios
 - Registrar referidos en una tabla de Airtable (referente, lead referido, servicio contratado, comision pagada)
 - Pagar la comision cuando el cliente contratado pague
 - Crear una landing especifica: kepatecnologia.com/referidos
@@ -124,13 +124,13 @@ La tercera fase consiste en **aplicar todo lo construido en las fases anteriores
 
 | Servicio | Descripcion | Precio |
 |---|---|---|
-| Automatizacion Make.com | Flujos personalizados para PYMEs | 200-500 EUR |
-| Integracion Claude API | IA para clasificacion, atencion al cliente | 150-400 EUR |
-| Mejora Landing Page | Rediseno completo optimizado | 300-600 EUR |
-| Gestion RRSS | Contenido + publicacion + analisis | 200-400 EUR/mes |
-| Captacion IA | Sistema completo de generacion de leads | 300-500 EUR/mes |
-| Twilio (SMS/WhatsApp) | Automatizacion de mensajeria | 150-300 EUR |
-| Pack Completo | Todo integrado para una PYME | 800-1.500 EUR |
+| Automatizacion Make.com | Flujos personalizados para PYMEs | [POR CONFIRMAR] EUR |
+| Integracion Claude API | IA para clasificacion, atencion al cliente | [POR CONFIRMAR] EUR |
+| Mejora Landing Page | Rediseno completo optimizado | [POR CONFIRMAR] EUR |
+| Gestion RRSS | Contenido + publicacion + analisis | [POR CONFIRMAR] EUR/mes |
+| Captacion IA | Sistema completo de generacion de leads | [POR CONFIRMAR] EUR/mes |
+| Twilio (SMS/WhatsApp) | Automatizacion de mensajeria | [POR CONFIRMAR] EUR |
+| Pack Completo | Todo integrado para una PYME | [POR CONFIRMAR] EUR |
 
 ---
 
@@ -160,10 +160,10 @@ La tercera fase consiste en **aplicar todo lo construido en las fases anteriores
 | Visitas web/mes | 200 | 500 | 1.000 | 2.000 |
 | Leads entrantes/mes | 10 | 30 | 60 | 100 |
 | Clientes nuevos/mes | 2 | 5 | 8 | 12 |
-| Ingresos servicios | 600 EUR | 2.000 EUR | 4.000 EUR | 7.000 EUR |
-| Comisiones Auvesta (equipo) | 100 EUR | 400 EUR | 800 EUR | 1.500 EUR |
-| Comisiones referidos propios | 100 EUR | 400 EUR | 700 EUR | 1.500 EUR |
-| **Total mensual** | **800 EUR** | **2.800 EUR** | **5.500 EUR** | **10.000 EUR** |
+| Ingresos servicios | [POR CONFIRMAR] | [POR CONFIRMAR] | [POR CONFIRMAR] | [POR CONFIRMAR] |
+| Comisiones Auvesta (equipo) | [POR CONFIRMAR] | [POR CONFIRMAR] | [POR CONFIRMAR] | [POR CONFIRMAR] |
+| Comisiones referidos propios | [POR CONFIRMAR] | [POR CONFIRMAR] | [POR CONFIRMAR] | [POR CONFIRMAR] |
+| **Total mensual** | **[POR CONFIRMAR]** | **[POR CONFIRMAR]** | **[POR CONFIRMAR]** | **[POR CONFIRMAR]** |
 
 ---
 
@@ -194,12 +194,12 @@ Cuando las 3 fases estan funcionando simultaneamente:
 
 | Fuente | Mes 6 | Mes 12 |
 |---|---|---|
-| Fase 1: Ventas Auvesta | 2.000 EUR | 2.500 EUR |
-| Fase 2: Servicios a partners | 4.500 EUR | 5.000 EUR |
-| Fase 2: Comisiones equipo Auvesta | 1.500 EUR | 3.000 EUR |
-| Fase 3: Servicios propios | 4.000 EUR | 7.000 EUR |
-| Fase 3: Comisiones Auvesta + referidos propios | 1.500 EUR | 3.000 EUR |
-| **TOTAL** | **13.500 EUR** | **20.500 EUR** |
+| Fase 1: Ventas Auvesta | [POR CONFIRMAR] | [POR CONFIRMAR] |
+| Fase 2: Servicios a partners | [POR CONFIRMAR] | [POR CONFIRMAR] |
+| Fase 2: Comisiones equipo Auvesta | [POR CONFIRMAR] | [POR CONFIRMAR] |
+| Fase 3: Servicios propios | [POR CONFIRMAR] | [POR CONFIRMAR] |
+| Fase 3: Comisiones Auvesta + referidos propios | [POR CONFIRMAR] | [POR CONFIRMAR] |
+| **TOTAL** | **[POR CONFIRMAR]** | **[POR CONFIRMAR]** |
 
 ---
 

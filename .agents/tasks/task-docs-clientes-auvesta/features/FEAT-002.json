@@ -1,0 +1,27 @@
+{
+  "id": "FEAT-002",
+  "type": "docs",
+  "description": "Marcar precios/comisiones como POR CONFIRMAR en los docs existentes, y crear contenido operativo: formulario de captacion HTML, templates de posts para RRSS, guia/script de ventas, y checklist operativa diaria.",
+  "status": "completed",
+  "steps": [
+    "En todos los archivos de docs/clientes/ que mencionen precios o comisiones concretas, cambiar los numeros por rangos con marcadores [POR CONFIRMAR] o [DEFINIR]",
+    "Crear docs/clientes/formulario-captacion.html - pagina HTML simple de captacion que conecte con Airtable via webhook de Make.com",
+    "Crear docs/clientes/templates-posts-rrss.md - 10 posts listos para publicar sobre automatizacion/IA en espanol",
+    "Crear docs/clientes/guia-ventas-partners.md - script/guia de ventas con elevator pitch, mensajes de WhatsApp, y secuencia de emails para contactar partners",
+    "Crear docs/clientes/checklist-operativa-diaria.md - checklist operativa diaria en markdown"
+  ],
+  "acceptance_criteria": [
+    "Los precios concretos en servicios-detalle.md, fase-2 y fase-3 estan marcados con [POR CONFIRMAR]",
+    "Existe formulario-captacion.html con formulario funcional conectado a webhook",
+    "Existe templates-posts-rrss.md con 10 posts completos listos para publicar",
+    "Existe guia-ventas-partners.md con elevator pitch, mensajes WhatsApp y secuencia emails",
+    "Existe checklist-operativa-diaria.md con rutina diaria operativa",
+    "Todo en espanol"
+  ],
+  "verification": [
+    "Verificar que los archivos existentes tienen marcadores [POR CONFIRMAR] en vez de precios fijos",
+    "Verificar que los nuevos archivos existen y tienen contenido sustancial"
+  ],
+  "blocked_reason": null,
+  "findings": "All prices and commissions changed to [POR CONFIRMAR] across 4 docs. Tool costs (Make.com 9EUR, Airtable free, etc.) left as-is since those are third-party public prices. Created 4 new operational files: HTML form (380 lines with Make.com webhook instructions), 10 social media templates, complete sales guide with WhatsApp/email sequences, and daily checklist with weekly/monthly tasks."
+}

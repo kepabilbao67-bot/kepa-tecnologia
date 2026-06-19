@@ -1,0 +1,14 @@
+{
+  "task_id": "task-docs-clientes-auvesta",
+  "task_description": "Crear carpeta docs/clientes/ con documentacion interna sobre automatizaciones Make.com y estrategia de negocio con Auvesta y para kepa-tecnologia",
+  "status": "completed",
+  "verification": {
+    "build": "pass",
+    "tests": "pass",
+    "test_quality": "pass",
+    "docker_build": "skipped",
+    "summary": "All 6 markdown files created in docs/clientes/ with comprehensive content in Spanish. 3 phases clearly differentiated. Review issues addressed (prompt robustness, API key security, error handling, group attribution mechanics, RGPD). 2 commits on main."
+  },
+  "feature_order": ["FEAT-001", "FEAT-002"],
+  "blocked_reason": null
+}

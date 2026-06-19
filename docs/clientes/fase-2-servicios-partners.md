@@ -136,33 +136,93 @@ La segunda fase consiste en **vender tus servicios de automatizacion y marketing
 
 ## Estrategia de Crecimiento del Grupo
 
-### Meter Gente en Tu Grupo
+### Que es "El Grupo" y Como Funciona
 
-Una parte clave de la Fase 2 es **hacer crecer tu grupo/red** para aprovechar tambien las ventas de quienes metes:
+El grupo es tu **equipo/downline dentro de la estructura de Auvesta**. Cuando metes gente en tu grupo:
 
-1. **Ofrecer valor primero** - Ayuda a los partners con sus problemas
-2. **Demostrar resultados** - Muestra que tus automatizaciones funcionan
-3. **Invitar al grupo** - Proponer que se unan a tu red/grupo
-4. **Formar a los nuevos** - Ensenales a usar las herramientas
-5. **Aprovechar sus ventas** - Beneficiarte de la actividad de tu red
+- Ellos se registran en Auvesta bajo tu enlace de referido
+- Cuando ellos venden productos de Auvesta, tu recibes una **comision de equipo** (% sobre sus ventas)
+- No les cobras nada. Auvesta paga esa comision de su margen
+- Cuantas mas personas activas tenga tu grupo, mas ingresos pasivos generas
 
-### Como Captar Gente para el Grupo
+### Mecanica de Atribucion de Ventas
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│           COMO SE ATRIBUYEN LAS VENTAS DEL GRUPO            │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  1. Tu registras a un nuevo partner con tu enlace personal  │
+│     (Auvesta asigna ese partner a tu estructura)            │
+│                                                             │
+│  2. El partner hace una venta de productos Auvesta          │
+│                                                             │
+│  3. Auvesta registra la venta y calcula comisiones:         │
+│     - El partner cobra su comision directa (venta propia)   │
+│     - TU cobras comision de equipo (% del volumen)          │
+│                                                             │
+│  4. El pago llega automaticamente desde Auvesta             │
+│     (no tienes que facturar ni cobrar tu al partner)        │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Herramienta de Seguimiento del Grupo
+
+| Herramienta | Funcion | Detalle |
+|---|---|---|
+| **Panel de Auvesta** | Registro oficial de ventas y comisiones | Aqui ves las ventas de tu equipo y tus comisiones generadas |
+| **Airtable (CRM propio)** | Seguimiento personal de actividad | Registra quien esta en tu grupo, su actividad, y quien necesita apoyo |
+| **WhatsApp grupo** | Comunicacion diaria con tu equipo | Compartir tips, motivacion, novedades, formacion rapida |
+
+### Proceso Concreto para Gestionar tu Grupo
+
+1. **Captar:** Usa tus servicios como puerta de entrada. Al ayudar a un partner con su landing o RRSS, le propones unirse a tu equipo
+2. **Registrar:** El partner se registra en Auvesta con tu enlace de referido personal
+3. **Verificar:** Confirma en el panel de Auvesta que aparece bajo tu estructura
+4. **Apuntar en Airtable:** Crea un registro con: nombre, fecha de entrada, nivel de actividad, ultimo contacto
+5. **Formar:** Ensenarle a vender (comparte tus automatizaciones, scripts, procesos)
+6. **Hacer seguimiento:** Revisa semanalmente quien esta vendiendo y quien no. Contacta a los inactivos
+7. **Cobrar:** Las comisiones de equipo se acumulan y pagan segun el calendario de Auvesta
+
+### Modelo de Comisiones de Equipo (Referencia)
+
+| Nivel | Descripcion | Comision Estimada |
+|---|---|---|
+| Nivel 1 (directos) | Personas que tu registraste directamente | 5-10% del volumen de sus ventas |
+| Nivel 2+ (indirectos) | Personas que registraron tus directos | 2-5% (segun plan de compensacion Auvesta) |
+
+> **Nota:** Los porcentajes exactos dependen del plan de compensacion vigente de Auvesta.
+> Consulta la documentacion oficial de Auvesta para los numeros actualizados.
+> Los KPIs de esta fase usan estimaciones conservadoras.
+
+### Meter Gente en Tu Grupo - Paso a Paso
+
+1. **Ofrecer valor primero** - Ayuda a los partners con sus problemas (landing, RRSS, automatizaciones)
+2. **Demostrar resultados** - Muestra que tus automatizaciones funcionan y que vendes bien
+3. **Invitar al grupo** - Proponer que se registren bajo tu enlace en Auvesta
+4. **Formar a los nuevos** - Ensenales a usar las herramientas y a vender
+5. **Aprovechar sus ventas** - Las comisiones de equipo fluyen automaticamente via Auvesta
+
+### Canales para Captar Gente para el Grupo
 
 | Canal | Accion | Objetivo |
 |---|---|---|
+| Servicios previos | Ofrecer tus servicios primero, proponer unirse despues | Confianza ya establecida |
 | WhatsApp | Compartir resultados y casos de exito | Generar interes |
-| Eventos | Presentar tus automatizaciones en vivo | Demostrar valor |
+| Eventos Auvesta | Presentar tus automatizaciones en vivo | Demostrar valor |
 | Redes sociales | Publicar contenido educativo | Atraer curiosos |
 | Boca a boca | Pedir referidos a partners satisfechos | Crecimiento organico |
 | Landing page | Crear pagina especifica para unirse | Captar leads 24/7 |
 
 ### Beneficios de Tener un Grupo Grande
 
-- **Ingresos pasivos** - Ganas de las ventas de los miembros
-- **Efecto red** - Mas gente = mas visibilidad = mas gente
-- **Economia de escala** - Las automatizaciones sirven a todos
-- **Datos** - Mas leads = mejor entrenamiento del sistema IA
-- **Autoridad** - Un grupo grande te posiciona como referente
+- **Ingresos pasivos via Auvesta** - Comisiones de equipo sobre las ventas de tus miembros (sin cobrarte tu a ellos)
+- **Efecto red** - Mas gente = mas visibilidad = mas gente interesada en unirse
+- **Economia de escala** - Las automatizaciones que creas sirven a todo tu equipo
+- **Datos** - Mas leads en tu sistema = mejor rendimiento del clasificador IA
+- **Autoridad** - Un grupo grande te posiciona como lider/referente dentro de Auvesta
+- **Doble ingreso** - Cobras por los servicios que les vendes (Fase 2) Y por sus ventas de Auvesta (comision equipo)
 
 ---
 

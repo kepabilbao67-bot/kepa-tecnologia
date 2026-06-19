@@ -60,13 +60,27 @@ La tercera fase consiste en **aplicar todo lo construido en las fases anteriores
 
 ### 4. Hacer Crecer Tu Propia Red
 
-**Lo mismo que hiciste en Auvesta, pero con tu marca:**
+**Lo mismo que hiciste en Auvesta, pero ahora con dos vias:**
 
-- Crear comunidad alrededor de kepa-tecnologia
-- Meter gente interesada en automatizaciones
-- Formar a otros en usar las herramientas
-- Crear programas de referidos
-- Generar ingresos de la actividad de tu red
+**Via A - Seguir creciendo tu grupo en Auvesta:**
+- Sigues captando gente para tu equipo en Auvesta usando tus servicios como puerta de entrada
+- Las comisiones de equipo siguen llegando (misma mecanica que en Fase 2)
+- Tu grupo en Auvesta sigue activo y generando
+
+**Via B - Crear programa de referidos propio (Kepa Tecnologia):**
+- Ofrecer un 10-15% de comision a quien te refiera clientes de servicios
+- Registrar referidos en una tabla de Airtable (referente, lead referido, servicio contratado, comision pagada)
+- Pagar la comision cuando el cliente contratado pague
+- Crear una landing especifica: kepatecnologia.com/referidos
+
+**Herramientas para gestionar tu red propia:**
+
+| Herramienta | Funcion |
+|---|---|
+| Airtable | Tabla de referidos: quien refirio, a quien, estado, comision |
+| Make.com | Automatizar notificaciones al referente cuando su lead convierte |
+| Panel de Auvesta | Seguir viendo comisiones de equipo de Auvesta |
+| PayPal / Transferencia | Pagar comisiones de referidos propios |
 
 ---
 
@@ -147,7 +161,8 @@ La tercera fase consiste en **aplicar todo lo construido en las fases anteriores
 | Leads entrantes/mes | 10 | 30 | 60 | 100 |
 | Clientes nuevos/mes | 2 | 5 | 8 | 12 |
 | Ingresos servicios | 600 EUR | 2.000 EUR | 4.000 EUR | 7.000 EUR |
-| Ingresos red/grupo | 200 EUR | 800 EUR | 1.500 EUR | 3.000 EUR |
+| Comisiones Auvesta (equipo) | 100 EUR | 400 EUR | 800 EUR | 1.500 EUR |
+| Comisiones referidos propios | 100 EUR | 400 EUR | 700 EUR | 1.500 EUR |
 | **Total mensual** | **800 EUR** | **2.800 EUR** | **5.500 EUR** | **10.000 EUR** |
 
 ---
@@ -181,9 +196,9 @@ Cuando las 3 fases estan funcionando simultaneamente:
 |---|---|---|
 | Fase 1: Ventas Auvesta | 2.000 EUR | 2.500 EUR |
 | Fase 2: Servicios a partners | 4.500 EUR | 5.000 EUR |
-| Fase 2: Ingresos de tu grupo | 1.500 EUR | 3.000 EUR |
+| Fase 2: Comisiones equipo Auvesta | 1.500 EUR | 3.000 EUR |
 | Fase 3: Servicios propios | 4.000 EUR | 7.000 EUR |
-| Fase 3: Red propia | 1.500 EUR | 3.000 EUR |
+| Fase 3: Comisiones Auvesta + referidos propios | 1.500 EUR | 3.000 EUR |
 | **TOTAL** | **13.500 EUR** | **20.500 EUR** |
 
 ---

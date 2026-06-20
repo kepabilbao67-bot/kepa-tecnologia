@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unete al Equipo - Kepa Tecnologia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --orange: #ff6a14;
+            --bg: #060606;
+            --text: #f3eee9;
+            --cyan: #00d4ff;
+            --yellow: #ffd400;
+            --gray: #1a1a1a;
+            --gray-mid: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'DM Mono', monospace;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        .header img {
+            width: 100px;
+            margin-bottom: 1.5rem;
+        }
+
+        .header h1 {
+            font-family: 'Anton', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            color: var(--orange);
+            text-transform: uppercase;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        .header .subtitle {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            color: var(--text);
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Hero section */
+        .hero {
+            text-align: center;
+            padding: 2rem 0 3rem;
+            border-bottom: 1px solid var(--gray-mid);
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 650px;
+            margin: 0 auto 1.5rem;
+            opacity: 0.85;
+        }
+
+        .hero .highlight {
+            color: var(--cyan);
+            font-weight: 500;
+        }
+
+        /* Benefits */
+        .benefits {
+            padding: 3rem 0;
+        }
+
+        .benefits h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 2rem;
+            color: var(--orange);
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .benefit-card {
+            background: var(--gray);
+            border: 1px solid var(--gray-mid);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: border-color 0.3s;
+        }
+
+        .benefit-card:hover {
+            border-color: var(--orange);
+        }
+
+        .benefit-card .icon {
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .benefit-card h3 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.2rem;
+            color: var(--orange);
+            margin-bottom: 0.5rem;
+        }
+
+        .benefit-card p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* What you'll learn */
+        .learn {
+            padding: 3rem 0;
+            border-top: 1px solid var(--gray-mid);
+        }
+
+        .learn h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 2rem;
+            color: var(--orange);
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .learn-list {
+            list-style: none;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .learn-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--gray-mid);
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .learn-list li:last-child {
+            border-bottom: none;
+        }
+
+        .learn-list .check {
+            color: var(--orange);
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        /* Who is it for */
+        .audience {
+            padding: 3rem 0;
+            border-top: 1px solid var(--gray-mid);
+            text-align: center;
+        }
+
+        .audience h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 2rem;
+            color: var(--orange);
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+
+        .audience p {
+            max-width: 600px;
+            margin: 0 auto 1rem;
+            opacity: 0.85;
+        }
+
+        .audience .tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .audience .tag {
+            background: var(--gray);
+            border: 1px solid var(--gray-mid);
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        /* Form section */
+        .form-section {
+            padding: 3rem 0;
+            border-top: 1px solid var(--gray-mid);
+        }
+
+        .form-section h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 2rem;
+            color: var(--orange);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .form-section .form-subtitle {
+            text-align: center;
+            opacity: 0.7;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: var(--gray);
+            border: 1px solid var(--gray-mid);
+            border-radius: 12px;
+            padding: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--orange);
+            margin-bottom: 0.4rem;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            background: var(--bg);
+            border: 1px solid var(--gray-mid);
+            border-radius: 6px;
+            padding: 0.75rem 1rem;
+            color: var(--text);
+            font-family: 'DM Mono', monospace;
+            font-size: 0.9rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--orange);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .form-group select {
+            appearance: none;
+            cursor: pointer;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: var(--orange);
+            color: var(--bg);
+            border: none;
+            border-radius: 6px;
+            padding: 1rem;
+            font-family: 'Syne', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: opacity 0.3s, transform 0.2s;
+            margin-top: 0.5rem;
+        }
+
+        .submit-btn:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .form-note {
+            text-align: center;
+            font-size: 0.75rem;
+            opacity: 0.5;
+            margin-top: 1rem;
+        }
+
+        /* About Kepa */
+        .about {
+            padding: 3rem 0;
+            border-top: 1px solid var(--gray-mid);
+            text-align: center;
+        }
+
+        .about h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 1.5rem;
+            color: var(--orange);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            max-width: 550px;
+            margin: 0 auto 0.75rem;
+            opacity: 0.85;
+            font-size: 0.95rem;
+        }
+
+        .about .stack {
+            color: var(--cyan);
+            font-weight: 500;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 2rem 0;
+            border-top: 1px solid var(--gray-mid);
+            text-align: center;
+            opacity: 0.5;
+            font-size: 0.8rem;
+        }
+
+        .footer a {
+            color: var(--orange);
+            text-decoration: none;
+        }
+
+        /* Success message */
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .success-message h3 {
+            font-family: 'Syne', sans-serif;
+            color: var(--orange);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .success-message p {
+            opacity: 0.85;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            .benefit-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <img src="../../assets/kepa-logo.png" alt="Kepa Tecnologia">
+            <h1>Unete al Equipo</h1>
+            <p class="subtitle">Aprende a vender con automatizacion e inteligencia artificial. Sin experiencia previa. Sin complicaciones.</p>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <p>Estamos formando un grupo de personas que quieren <span class="highlight">generar ingresos vendiendo con sistemas automaticos</span>. Herramientas reales, formacion practica, y un equipo que te apoya.</p>
+            <p>No necesitas saber de tecnologia. Solo ganas de aprender y actuar.</p>
+        </section>
+
+        <!-- Benefits -->
+        <section class="benefits">
+            <h2>Que Obtienes</h2>
+            <div class="benefit-grid">
+                <div class="benefit-card">
+                    <div class="icon">⚡</div>
+                    <h3>Automatizaciones Listas</h3>
+                    <p>Sistemas de captacion y seguimiento de clientes ya montados. Solo tienes que activarlos para tu caso.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">🤖</div>
+                    <h3>IA Trabajando por Ti</h3>
+                    <p>Inteligencia artificial que clasifica leads, responde preguntas, y te dice a quien contactar primero.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">📱</div>
+                    <h3>WhatsApp Automatico</h3>
+                    <p>Mensajes de bienvenida y seguimiento que se envian solos. Tus leads reciben respuesta en segundos.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">📊</div>
+                    <h3>Formacion Practica</h3>
+                    <p>Aprende Make.com, Airtable, y Claude API con tutoriales paso a paso. De cero a sistema funcionando.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">👥</div>
+                    <h3>Comunidad y Soporte</h3>
+                    <p>Grupo privado donde resolver dudas, compartir resultados, y crecer juntos. Nadie va solo.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">🎯</div>
+                    <h3>Estrategia de Ventas</h3>
+                    <p>Scripts, templates de posts, secuencias de email, y guias de venta probadas. Todo listo para usar.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What you'll learn -->
+        <section class="learn">
+            <h2>Lo Que Vas a Aprender</h2>
+            <ul class="learn-list">
+                <li>
+                    <span class="check">→</span>
+                    <span>Como montar un sistema de captacion de clientes que funciona 24/7</span>
+                </li>
+                <li>
+                    <span class="check">→</span>
+                    <span>Usar Make.com para automatizar tareas repetitivas sin programar</span>
+                </li>
+                <li>
+                    <span class="check">→</span>
+                    <span>Clasificar leads con inteligencia artificial (Claude API)</span>
+                </li>
+                <li>
+                    <span class="check">→</span>
+                    <span>Enviar mensajes automaticos por WhatsApp y email</span>
+                </li>
+                <li>
+                    <span class="check">→</span>
+                    <span>Crear contenido para redes sociales que atrae clientes</span>
+                </li>
+                <li>
+                    <span class="check">→</span>
+                    <span>Gestionar una base de datos de clientes profesional (Airtable)</span>
+                </li>
+                <li>
+                    <span class="check">→</span>
+                    <span>Vender servicios de automatizacion a otros negocios</span>
+                </li>
+                <li>
+                    <span class="check">→</span>
+                    <span>Escalar ingresos sin multiplicar horas de trabajo</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Audience -->
+        <section class="audience">
+            <h2>Para Quien Es Esto</h2>
+            <p>Para personas con ganas de generar ingresos usando tecnologia moderna. No importa tu experiencia previa. Si sabes usar un movil y tienes ganas de aprender, es suficiente.</p>
+            <div class="tags">
+                <span class="tag">Autonomos</span>
+                <span class="tag">Comerciales</span>
+                <span class="tag">Emprendedores</span>
+                <span class="tag">Freelancers</span>
+                <span class="tag">Vendedores</span>
+                <span class="tag">Estudiantes</span>
+                <span class="tag">Profesionales en transicion</span>
+            </div>
+        </section>
+
+        <!-- Form -->
+        <section class="form-section">
+            <h2>Quiero Unirme</h2>
+            <p class="form-subtitle">Rellena el formulario y te contactamos con toda la informacion</p>
+
+            <div class="form-container">
+                <form id="grupo-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">WhatsApp / Telefono *</label>
+                        <input type="tel" id="telefono" name="telefono" required placeholder="+34 6XX XXX XXX">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="situacion">Tu situacion actual</label>
+                        <select id="situacion" name="situacion">
+                            <option value="">Selecciona una opcion</option>
+                            <option value="empleado">Empleado/a (busco ingresos extra)</option>
+                            <option value="autonomo">Autonomo/a (quiero escalar)</option>
+                            <option value="desempleado">En busqueda de empleo</option>
+                            <option value="estudiante">Estudiante</option>
+                            <option value="emprendedor">Emprendedor/a con negocio activo</option>
+                            <option value="otro">Otra situacion</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="motivacion">¿Que te motiva a unirte?</label>
+                        <textarea id="motivacion" name="motivacion" placeholder="Cuentanos brevemente que esperas conseguir..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Quiero Informacion</button>
+
+                    <p class="form-note">Sin compromiso. Te contactamos en menos de 24 horas.</p>
+                </form>
+
+                <div class="success-message" id="success-msg">
+                    <h3>Recibido!</h3>
+                    <p>Te contactamos pronto por WhatsApp con toda la informacion. Estate atento/a.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about">
+            <h2>Quien esta detras</h2>
+            <p><strong>Kepa Bilbao</strong> - Freelancer en Bilbao especializado en automatizacion e inteligencia artificial para negocios.</p>
+            <p>Trabajo con <span class="stack">Make.com, Claude API, Twilio, y Airtable</span> para construir sistemas que venden sin intervencion manual.</p>
+            <p>Este grupo nace de mi experiencia aplicando estas herramientas a negocios reales y queriendo compartir el metodo con mas personas.</p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p><a href="https://kepatecnologia.com">kepatecnologia.com</a> | Bilbao, Bizkaia</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Form submission handler
+        // Replace the action URL with your Make.com webhook URL
+        const WEBHOOK_URL = 'https://hook.eu2.make.com/TU-WEBHOOK-AQUI';
+
+        document.getElementById('grupo-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const formData = {
+                nombre: document.getElementById('nombre').value,
+                email: document.getElementById('email').value,
+                telefono: document.getElementById('telefono').value,
+                situacion: document.getElementById('situacion').value,
+                motivacion: document.getElementById('motivacion').value,
+                origen: 'landing-grupo',
+                fecha: new Date().toISOString()
+            };
+
+            // Send to Make.com webhook
+            fetch(WEBHOOK_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            })
+            .then(response => {
+                // Show success message
+                document.getElementById('grupo-form').style.display = 'none';
+                document.getElementById('success-msg').style.display = 'block';
+            })
+            .catch(error => {
+                // Show success anyway (webhook might not be configured yet)
+                document.getElementById('grupo-form').style.display = 'none';
+                document.getElementById('success-msg').style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>

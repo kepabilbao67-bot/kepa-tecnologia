@@ -93,6 +93,82 @@ Rutina diaria, semanal y mensual para gestionar el negocio de forma eficiente.
 
 ---
 
+## Contenido y Marketing
+
+### Calendario de Contenido (30 dias)
+Plan mensual completo con 30 publicaciones: tematica, formato, texto, CTA y hashtags para todas las plataformas.
+
+📄 [Ver calendario de contenido](./calendario-contenido-30dias.md)
+
+---
+
+### Bios Optimizadas para Redes Sociales
+Bios listas para Instagram, LinkedIn, Twitter/X y TikTok con CTAs y enlaces.
+
+📄 [Ver bios de redes](./bios-redes-sociales.md)
+
+---
+
+### Scripts de Video (Reels / TikTok)
+5 guiones de 30-60 segundos con hook, desarrollo y CTA para grabar directamente.
+
+📄 [Ver scripts de video](./scripts-video-reels.md)
+
+---
+
+### Secuencia de Emails de Nurturing
+5 emails para leads que entran pero no compran: bienvenida, valor, caso de exito, oferta soft, cierre.
+
+📄 [Ver secuencia de emails](./secuencia-emails-nurturing.md)
+
+---
+
+### Guia de Diseno y Canva
+Colores, tipografias, medidas por plataforma, y 5 plantillas tipo descritas para crear contenido visual.
+
+📄 [Ver guia de diseno](./guia-diseno-canva.md)
+
+---
+
+### Branding Kepa - Resumen de Marca
+Propuesta de valor, tono de voz, palabras clave, posicionamiento, y que NO decir.
+
+📄 [Ver branding](./branding-kepa-resumen.md)
+
+---
+
+## Automatizaciones Adicionales
+
+### Flujo de Bienvenida Automatico
+Documentacion completa del escenario Make.com: registro → WhatsApp + Email + Airtable + tarea de seguimiento a 3 dias.
+
+📄 [Ver flujo de bienvenida](./automatizacion-bienvenida.md)
+
+---
+
+## Recursos de Captacion
+
+### Landing de Grupo/Equipo
+Pagina HTML para reclutar personas al grupo. Estilo dark + naranja, formulario de interes.
+
+📄 [Ver landing de grupo](./landing-grupo.html)
+
+---
+
+### FAQ y Respuestas a Objeciones
+15 preguntas frecuentes con respuestas listas para conversaciones de venta, web y redes.
+
+📄 [Ver FAQ](./faq-objeciones.md)
+
+---
+
+### CSV para Importar en Airtable
+Archivo CSV con los 16 campos del sistema de clasificacion y 5 registros de ejemplo.
+
+📄 [Ver CSV de Airtable](./airtable-import.csv)
+
+---
+
 ## Resumen Visual de la Progresion
 
 ```

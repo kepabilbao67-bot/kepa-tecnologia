@@ -1,0 +1,10 @@
+
+vercel-public/
+.vercel/
+.env
+.env.*
+
+vercel-public/
+.vercel/
+.env
+.env.*

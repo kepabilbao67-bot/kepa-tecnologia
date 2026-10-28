@@ -5,14 +5,25 @@
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/uploads/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     }
-  ]
+  ],
+  "version": 2,
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "node scripts/build-vercel.mjs",
+  "outputDirectory": "vercel-public"
 }
